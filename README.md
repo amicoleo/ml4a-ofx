@@ -1,6 +1,13 @@
 ## ml4a-ofx
 
-A collection of real-time interactive applications and associated scripts for working with machine learning. 
+----
+Just the same repo with some useful notes on using the apps below; 
+
+- ReverseImageSearchFast
+
+----
+
+A collection of real-time interactive applications and associated scripts for working with machine learning.
 
 All apps contained here require [openFrameworks](http://www.openframeworks.cc) to run, as well as a number of addons, listed below.
 
@@ -8,7 +15,7 @@ All apps contained here require [openFrameworks](http://www.openframeworks.cc) t
 
 The openFrameworks apps are provided as source code, and can be built and compiled by using the project generator that comes with openFrameworks.
 
-Several of these applications are coupled with python scripts which do some analysis of media (feature extraction, t-SNE, etc), whose results are then imported into your ofApp via JSON or some other means for further processing. Some of them can be replicated entirely within openFrameworks, and wherever possible (for example, t-SNE) such applications are also provided. The advantage of the scripts is that they can be used in other environments as well, and are much easier to port or implement from the preeminent machine learning frameworks. 
+Several of these applications are coupled with python scripts which do some analysis of media (feature extraction, t-SNE, etc), whose results are then imported into your ofApp via JSON or some other means for further processing. Some of them can be replicated entirely within openFrameworks, and wherever possible (for example, t-SNE) such applications are also provided. The advantage of the scripts is that they can be used in other environments as well, and are much easier to port or implement from the preeminent machine learning frameworks.
 
 ### Applications
 
@@ -16,7 +23,7 @@ The [apps](https://github.com/ml4a/ml4a-ofx/tree/master/apps) folder contains al
 
 ### Osc Modules
 
-The [osc-modules](https://github.com/ml4a/ml4a-ofx/tree/master/osc-modules) folder contains a set of applications which send or receive OSC in order to facilitate communication with other applications, and are very easily used alongside [Wekinator](http://www.wekinator.org). 
+The [osc-modules](https://github.com/ml4a/ml4a-ofx/tree/master/osc-modules) folder contains a set of applications which send or receive OSC in order to facilitate communication with other applications, and are very easily used alongside [Wekinator](http://www.wekinator.org).
 
 ### Datasets
 
@@ -24,7 +31,7 @@ Some of the applications work on image/audio/text datasets. Example datasets are
 
 ### Addons
 
-All of the included applications (both in the apps and osc-modules folders) require some combination of the following addons. The readme for each app lists the addons required individually. The following is a complete list: 
+All of the included applications (both in the apps and osc-modules folders) require some combination of the following addons. The readme for each app lists the addons required individually. The following is a complete list:
 - [ofxAbletonLive](https://github.com/genekogan/ofxAbletonLive)
 - [ofxAssignment](https://github.com/kylemcdonald/ofxAssignment)
 - [ofxAudioUnit](https://github.com/admsyn/ofxAudioUnit)
@@ -44,7 +51,7 @@ All of the included applications (both in the apps and osc-modules folders) requ
 
 The addons also make use of ofxGui, ofxOsc, and ofxOpenCv, which are included in openFrameworks by default.
 
-These addons are not currently used in ml4a-ofx, but are also relevant and may be wrapped into examples in the future: 
+These addons are not currently used in ml4a-ofx, but are also relevant and may be wrapped into examples in the future:
 - [ofxMSATensorflow](https://github.com/memo/ofxMSATensorFlow)
 - [ofxDlib](https://github.com/bakercp/ofxDlib)
 - [ofxCaffe](https://github.com/Geekrick88/ofxCaffe)

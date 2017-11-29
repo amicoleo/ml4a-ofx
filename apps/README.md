@@ -24,7 +24,7 @@ Train an image regression on a webcam feed.
 
 #### ConvnetViewer
 
-View the activations of a trained convnet. 
+View the activations of a trained convnet.
 
 #### DoodleClassifier
 

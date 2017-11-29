@@ -41,9 +41,9 @@ void ofApp::setup(){
     ccv.setup(ofToDataPath("../../../../data/image-net-2012.sqlite3"));
 //    ccv.setup(ofToDataPath("image-net-2012.sqlite3"));
     
-//    baseDir = ofToDataPath("../../../../data/mscoco");
-//    load(ofToDataPath("../../../../data/feature_vectors/mscoco_images_145k_rp100.dat"), baseDir);
-//    runKDTree();
+    baseDir = ofToDataPath("../../../../data/mscoco");
+    load(ofToDataPath("../../../../data/feature_vectors/mscoco_images_145k_rp100.dat"), baseDir);
+    runKDTree();
 }
 
 //--------------------------------------------------------------
